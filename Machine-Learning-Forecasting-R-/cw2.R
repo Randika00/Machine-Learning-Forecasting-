@@ -55,7 +55,6 @@ maxV <- max(dataSc[,4])
 
 #Creating Neural Network models with AR
 
-#First NN Model with 3 , 4 hidden layers 
 NN1<- neuralnet(Eleven ~ Eleven, hidden = c(3, 4),
                 data = dataTrainingSc ,linear.output=TRUE)
 
